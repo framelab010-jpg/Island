@@ -1,0 +1,36 @@
+# ============================================
+#  IslandBridgeAmongUs - konfigurasi
+# ============================================
+settings:
+  # Jumlah minimum pemain untuk memulakan permainan
+  min-players: 3
+  # Bilangan impostor
+  impostors-small: 1          # jika pemain kurang daripada large-threshold
+  impostors-large: 2          # jika pemain mencapai large-threshold
+  large-threshold: 7
+
+  # Tugasan
+  tasks-per-crewmate: 3
+
+  # Pembunuhan
+  kill-cooldown-seconds: 20
+
+  # Mesyuarat
+  discussion-seconds: 45      # masa berbual sebelum undian
+  voting-seconds: 30          # masa untuk mengundi
+  emergency-meetings-per-player: 1
+  confirm-ejects: true        # dedahkan sama ada yang dilontar itu impostor
+  chat-only-in-meeting: true  # pemain hidup hanya boleh chat semasa mesyuarat
+
+  # Sabotaj
+  sabotage-cooldown-seconds: 30
+  lights-seconds: 30
+  reactor-seconds: 45
+
+# Ditetapkan melalui arahan /ib set <jenis>
+locations: {}
+
+# Ditetapkan melalui /ib addtask dan /ib addvent
+points:
+  tasks: []
+  vents: []

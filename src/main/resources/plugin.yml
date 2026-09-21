@@ -1,0 +1,15 @@
+name: IslandBridgeAmongUs
+version: 1.0.0
+main: com.islandbridge.IslandBridgeAmongUs
+api-version: '1.20'
+author: IslandBridge
+description: Among Us untuk Minecraft - peranan, tugasan, mesyuarat, undian, sabotaj dan vent.
+commands:
+  ib:
+    description: Arahan utama IslandBridge Among Us
+    usage: /ib <role|tasks|sabotage|start|stop|set|addtask|addvent|list>
+    aliases: [amongus, ibau]
+permissions:
+  islandbridge.admin:
+    description: Akses arahan admin IslandBridge
+    default: op
